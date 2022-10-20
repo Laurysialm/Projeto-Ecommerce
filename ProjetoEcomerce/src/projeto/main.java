@@ -59,8 +59,8 @@ public class main {
 		products[0] = product1;
 		products[1] = product2;
 		
-		MeanDelivery type1 = new MeanDelivery(1, 56.90,"Sedex", 5);
-		MeanDelivery type2 = new MeanDelivery(2, 20.90,"CorreiosPadrão", 14);
+		MeanDelivery type1 = new MeanDelivery(1, 56.90,"FedEx", 5);
+		MeanDelivery type2 = new MeanDelivery(2, 20.90,"Mail", 14);
 		
 		PaymentType  payment1 = new PaymentType(1,"digital","Credit Card","3112");
 		PaymentType  payment2 = new PaymentType(2,"physical cash","cash","null");
@@ -68,7 +68,7 @@ public class main {
 		Order order1 = new Order(
 				  1,
 				  3312,
-				  "Conpleted",
+				  "Completed",
 				  products
 				);
 		order1.setAdress(adress1);

@@ -16,7 +16,7 @@ public class Adress {
 		setZipcode(zipcode);
 		setCoutry(coutry);
 	}
-	public void exibirEndereco() {
+	public void showAdress() {
 		System.out.println("ID Adress: " + getId_adress());
 		System.out.println("Street: " + getStreet());
 		System.out.println("District: " + getDistrict());
@@ -61,10 +61,7 @@ public class Adress {
 	public void setCoutry(String coutry) {
 		this.coutry = coutry;
 	}
-	public void showAdress() {
-		// TODO Auto-generated method stub
-		
-	}
+
 	
 
 }
